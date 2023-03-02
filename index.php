@@ -10,10 +10,11 @@ $url ="https://api.openweathermap.org/data/2.5/weather?lat={$lat}&lon={$lon}&app
 
 $cahce = 'cahce.json';
 $now = time();
-$timeout = 1000;
+$timeout = 600;
 
 /*var_dump(file_exists($cahce));
 var_dump($now);
+var_dump();
 var_dump();*/
 
 
